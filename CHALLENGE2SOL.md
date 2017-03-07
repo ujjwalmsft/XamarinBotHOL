@@ -25,7 +25,7 @@ There are 2 Nugets which we want to install in our project:
 
 ### Installation steps
 
-![step1](https://github.com/jamesleeht/MarsXamarin/blob/master/Images/solutionnugets.png)
+![step1](https://github.com/ujjwalmsft/XamarinBotHOL/blob/master/Images/solutionnugets.png)
 
 1. Right-click on the solution and click "Manage NuGet packages for solution".
 2. Click on the "Browse" tab

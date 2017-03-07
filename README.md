@@ -7,7 +7,7 @@ Your crew has just found an alien bot on Mars that understands English, but we n
 
 ## Mission Setup
 ### Installation
-Go through this [document](https://github.com/jamesleeht/XamarinMarsHOL/blob/master/INSTALL.md) to ensure that your Xamarin has been installed and setup correctly.
+Go through this [document](https://github.com/ujjwalmsft/XamarinBotHOL/blob/master/INSTALL.md) to ensure that your Xamarin has been installed and setup correctly.
 
 ### Starting Project
 In this repository there is a blank Xamarin.Forms shared project that has been pre-configured with the right nugets for you. You can find it above under `MarsBuddyBlank`.
@@ -25,14 +25,14 @@ Xamarin allows you to write your code base once in C#/.NET and have it deployed 
 
 This HOL will bring you through deploying a simple bot using the Microsoft Bot Framework, setting up a DirectLine (REST API) connection and building a Xamarin app to work with it:
 
-1. [Publishing a bot and getting DirectLine](https://github.com/jamesleeht/XamarinMarsHOL/blob/master/MISSION1.md)
-2. [Connecting to a bot](https://github.com/jamesleeht/XamarinMarsHOL/blob/master/MISSION2.md)
-3. [Making an interface to interact with the bot](https://github.com/jamesleeht/XamarinMarsHOL/blob/master/MISSION3.md)
+1. [Publishing a bot and getting DirectLine](https://github.com/ujjwalmsft/XamarinBotHOL/blob/master/MISSION1.md)
+2. [Connecting to a bot](https://github.com/ujjwalmsft/XamarinBotHOL/blob/master/MISSION2.md)
+3. [Making an interface to interact with the bot](https://github.com/ujjwalmsft/XamarinBotHOL/blob/master/MISSION3.md)
 
 If you've finished the missions, there are some challenges for you to complete to and win some prizes.
 
-1. [Challenge 1: Custom ListView Cells](https://github.com/jamesleeht/XamarinMarsHOL/blob/master/CHALLENGE1.md)
-2. [Challenge 2: Computer Vision with Camera](https://github.com/jamesleeht/XamarinMarsHOL/blob/master/CHALLENGE2.md)
+1. [Challenge 1: Custom ListView Cells](https://github.com/ujjwalmsft/XamarinBotHOL/blob/master/CHALLENGE1.md)
+2. [Challenge 2: Computer Vision with Camera](https://github.com/ujjwalmsft/XamarinBotHOL/blob/master/CHALLENGE2.md)
 
 ## Mission Check
 You can see the final completions for both the missions and challenges in the `CompletedScreenshots` folder.

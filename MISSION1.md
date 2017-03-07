@@ -19,7 +19,7 @@ There are 3 steps to this tutorial:
 
 ## Downloading the project
 
-First, go to this [repository](https://github.com/jamesleeht/marsbot) and download the ZIP file. 
+First, go to this [repository](https://github.com/ujjwalmsft/marsbot) and download the ZIP file. 
 Make sure to unarchive it and store it somewhere like your Desktop.
 
 ## Initialise a Github repository
@@ -83,11 +83,11 @@ Go to the [Azure Portal](https://portal.azure.com). Click on 'New' (it's at the 
 
 It might take a while, but you will get notified when your web app has been successfully created. Once it has been created go into All Resources (it's on the sidebar) and look for the web app you just created. Click into it and it should display a dashboard with info about your web app. Click into the Github blade under Choose Source. Then, click into Authorization and log in with your Github credentials. Then, select the project and branch (should be master) that your bot is in. Leave the Performance Test as not configured and hit ok. 
 
-![CI](https://raw.githubusercontent.com/jamesleeht/XamarinMarsHOL/master/Images/cintegration.PNG)
+![CI](https://raw.githubusercontent.com/ujjwalmsft/XamarinBotHOL/master/Images/cintegration.PNG)
 
 It may take a while for the latest commit to sync and be deployed to your web app. If the latest commit doesn't seem to be syncing, just hit sync. You'll see a green tick with your latest commit once it's done. 
 
-![CISuccess](https://raw.githubusercontent.com/jamesleeht/XamarinMarsHOL/master/Images/cintsuccess.PNG)
+![CISuccess](https://raw.githubusercontent.com/ujjwalmsft/XamarinBotHOL/master/Images/cintsuccess.PNG)
 
 ## Registering your bot on the portal
 In order for your bot to talk to the Bot Connector and reach your users on the different channels, the bot has to be first registered on the Bot Framework portal. 
@@ -105,19 +105,19 @@ Most of the fields are self-explanatory.
 - The "Create Microsoft App ID and Password" will give you a new ID and password. Save this as we need it later.
 - You can also input your Azure Application Insights key if you enabled it when creating the Web App on Azure, but it's optional.
 
-![Registration](https://raw.githubusercontent.com/jamesleeht/XamarinMarsHOL/master/Images/marsbotregistration.PNG)
+![Registration](https://raw.githubusercontent.com/ujjwalmsft/XamarinBotHOL/master/Images/marsbotregistration.PNG)
 
 ## Authorizing your bot
 Now that you have the bot deployed on Azure and registered on the Bot Framework, we need to add the App ID and Password on Azure.
 
 Go back to your deployment on Azure and click on App Settings, configuring the App ID and Password we got just now.
 
-![AppSettings](https://raw.githubusercontent.com/jamesleeht/XamarinMarsHOL/master/Images/marsbotsettings.PNG)
+![AppSettings](https://raw.githubusercontent.com/ujjwalmsft/XamarinBotHOL/master/Images/marsbotsettings.PNG)
 
 ## Managing your new bot
 After registering, you'll be sent to the page where you can manage all your bots. Click on the bot you just created. The page should look like this:
 
-![Management](https://raw.githubusercontent.com/jamesleeht/XamarinMarsHOL/master/Images/marsbotportal.PNG)
+![Management](https://raw.githubusercontent.com/ujjwalmsft/XamarinBotHOL/master/Images/marsbotportal.PNG)
 
 The top portion has several useful functions.
 - A testing function which will send a simple HTTP request to your messaging endpoint and give you back an appropriate success or error message.
@@ -127,7 +127,7 @@ Try writing "Hi" to the bot in the web chat and see if it responds. If it does t
 
 ## Setting up Direct Line
 
-![DirectLine](https://raw.githubusercontent.com/jamesleeht/XamarinMarsHOL/master/Images/marsbotdl.PNG)
+![DirectLine](https://raw.githubusercontent.com/ujjwalmsft/XamarinBotHOL/master/Images/marsbotdl.PNG)
 
 Go down to the Direct Line row and click "Add" on the right. Click "Add new site" on the left and add a new site.
 You will be given 2 keys, copy the first key and save it somewhere, we will need this key later.
