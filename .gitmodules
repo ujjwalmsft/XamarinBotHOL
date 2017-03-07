@@ -1,0 +1,9 @@
+[submodule "marsbot"]
+	path = marsbot
+	url = https://github.com/jamesleeht/marsbot
+[submodule "MarsBuddyBlank"]
+	path = MarsBuddyBlank
+	url = https://github.com/jamesleeht/MarsBuddyBlank
+[submodule "MarsBuddyComplete"]
+	path = MarsBuddyComplete
+	url = https://github.com/jamesleeht/MarsBuddyComplete
