@@ -1,9 +1,9 @@
 [submodule "marsbot"]
 	path = marsbot
-	url = https://github.com/jamesleeht/marsbot
+	url = https://github.com/ujjwalmsft/MarsBot
 [submodule "MarsBuddyBlank"]
 	path = MarsBuddyBlank
-	url = https://github.com/jamesleeht/MarsBuddyBlank
+	url = https://github.com/ujjwalmsft/MarsBuddyBlank
 [submodule "MarsBuddyComplete"]
 	path = MarsBuddyComplete
-	url = https://github.com/jamesleeht/MarsBuddyComplete
+	url = https://github.com/ujjwalmsft/XamarinMarsBuddyComplete
